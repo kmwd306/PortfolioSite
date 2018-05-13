@@ -1,0 +1,18 @@
+body{
+  
+    background-color: #d6efe7;
+}
+
+.navbar{
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    background: transparent;
+    padding-top: 10px;
+/*
+    color: #e44a66;
+    fill: #e44a66;
+    border-color: #e44a66;
+*/
+    }
+
