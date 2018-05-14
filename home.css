@@ -79,21 +79,22 @@ li:active{
     color: #B7BCBD;
 }
 
+div.rectangle {	
+    position: absolute;
+    top: 350px; /*[wherever you want it]*/
+    left: 450px;
+    height: 128px;	
+    width: 445px;	
+    opacity: .50;	
+    background-color: #FEDB32;
+    z-index: 9;
+   
+}
 
 div.page-desc {
-/*
-    max-width: 100%;
-    box-sizing: border-box;
-    display: inline-block;
-    margin: 25px 0 0;
-    padding: 0;
-    position: relative;
-    z-index: inherit;
-*/
     text-align: center;
     vertical-align: middle;
     line-height: 90px;
-/*    position: absolute;*/
      margin: auto;
      top: 0;
      right: 0;
@@ -130,17 +131,6 @@ p{
     display: block;
 }
 
-div.rectangle {	
-    position: fixed;
-    top: 1; /*[wherever you want it]*/
-    left: 0;
-    height: 8px;	
-    width: 443px;	
-    opacity: .53;	
-    background-color: #FEDB32;
-/*    margin:0 auto;*/
-   
-}
 
 .scroll-arrow{
     cursor: pointer;
@@ -160,3 +150,7 @@ div.rectangle {
     color: #fff;
 }
 
+.theText {
+    position: relative;
+    z-index: 10 !important;
+}
