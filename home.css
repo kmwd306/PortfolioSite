@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("city.jpg");
+    background-image: url("city1.png");
 /*    filter: blur(2px);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -79,13 +79,6 @@ li:active{
     color: #B7BCBD;
 }
 
-div.rectangle {	
-    height: 142px;	
-    width: 443px;	
-    opacity: 53%;	
-    background-color: #FEDB32;
-}
-
 
 div.page-desc {
 /*
@@ -137,6 +130,17 @@ p{
     display: block;
 }
 
+div.rectangle {	
+    position: fixed;
+    top: 1; /*[wherever you want it]*/
+    left: 0;
+    height: 8px;	
+    width: 443px;	
+    opacity: .53;	
+    background-color: #FEDB32;
+/*    margin:0 auto;*/
+   
+}
 
 .scroll-arrow{
     cursor: pointer;
